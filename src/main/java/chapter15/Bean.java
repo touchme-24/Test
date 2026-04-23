@@ -23,7 +23,7 @@ public class Bean extends HttpServlet {
 		Product p=new Product();
 		
 		p.setId(1);
-		p.setName("まぐろ");
+		p.setName("まぐろ!");
 		p.setPrice(100);
 		
 		out.println(p.getId());
